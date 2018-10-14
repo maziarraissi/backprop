@@ -1,4 +1,4 @@
-# Backpropagation in Python, C++, and Cuda
+# [Backpropagation](https://maziarraissi.github.io/backprop/) in Python, C++, and Cuda
 
 This is a short tutorial on backpropagation and its implementation in Python, C++, and Cuda. 
 
