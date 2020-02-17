@@ -2,7 +2,7 @@
 layout: default
 ---
 ### Author
-[Maziar Raissi](http://www.dam.brown.edu/people/mraissi/)
+[Maziar Raissi](https://maziarraissi.github.io/)
 
 ### Abstract
 
@@ -13,7 +13,7 @@ This is a short tutorial on [backpropagation](https://en.wikipedia.org/wiki/Back
 
 Let us consider the following densely connected deep neural network
 
-![](http://www.dam.brown.edu/people/mraissi/assets/img/feedforward.png)
+![](https://maziarraissi.github.io/assets/img/feedforward.png)
 
 taking as input $$X \in \mathbb{R}^{n \times p_0}$$ and outputting $$F \in \mathbb{R}^{n \times p_{\ell+1}}$$. Here, $$n$$ denotes the number of data while the weights $$W_i \in \mathbb{R}^{p_i \times p_{i+1}}$$ and biases $$b_i \in \mathbb{R}^{1 \times p_{i+1}}$$ represent the parameters of the neural network. Moreover, let us focus on the sum of squared errors loss function
 
@@ -60,7 +60,7 @@ $$
 
 Here, we are using the fact that the derivative of $$\tanh(x)$$ with respect to $$x$$ is given by $$1-\tanh^2(x)$$. Moreover, $$\odot$$ denoted the point-wise product between two matrices. The above procedure can be repeated to give us the backpropagation algorithm
 
-![](http://www.dam.brown.edu/people/mraissi/assets/img/backprop.png)
+![](https://maziarraissi.github.io/assets/img/backprop.png)
 
 
 Moreover, the gradient of $$\mathcal{L}$$ with respect to $$X$$ is given by
@@ -72,4 +72,3 @@ $$
 * * * * *
 
 All data and codes are publicly available on [GitHub](https://github.com/maziarraissi/backprop).
-
